@@ -26,6 +26,7 @@ const config = {
 		'^.+\\.(ts|tsx)?$': 'ts-jest',
     	'^.+\\.(js|jsx)$': 'babel-jest',
 	},	
+	testMatch: ['<rootDir>/tests/**/*.{js,jsx,ts,tsx}']
 };
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
