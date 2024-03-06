@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
+    "test": "jest", 
+    "test:nocache": "jest --no-cache", 
     "test:coverage": "jest --coverage --no-cache --maxWorkers=60%",
     "test:vi": "vitest",
+    "test:vinocache": "vitest --no-cache", 
     "test:preview": "vite preview --outDir html",
     "test:vicoverage": "vitest run --coverage",
     "test:ui": "vitest --ui"

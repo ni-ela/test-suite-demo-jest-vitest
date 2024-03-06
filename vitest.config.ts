@@ -16,7 +16,7 @@ export default defineConfig({
         setupFiles: ['./setupTests.js'],
         reporters: ['default', 'html'],
         coverage: {
-            enabled: true,
+            //enabled: true,
             reporter: ['text', 'html', 'lcov'],
             exclude: [
                 '.eslintrc.json',
