@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { MarkdownRenderer } from '../../components/MarkownRenderer';
+import { MarkdownRenderer } from '../../src/components/MarkownRenderer';
 
 describe('MarkdownRenderer', () => {
   it('renders markdown correctly', () => {
